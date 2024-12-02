@@ -8,9 +8,14 @@ A lightweight desktop app that compresses your images without quality loss. Perf
 ## 📸 Screenshots
 
 <p align="center">
-<img src="Assets/main.png" width="30%" alt="Main Interface"/>
-  <img src="Assets/progress.png" width="30%" alt="Progress Interface"/>
-  <img src="Assets/result.png" width="30%" alt="Result Interface"/>
+  <img src="Assets/main.png" width="20%" alt="Main Interface"/>
+  <img src="Assets/settings.png" width="20%" alt="Settings Interface"/>
+  <img src="Assets/analysis.png" width="20%" alt="Analysis Interface"/>
+  <img src="Assets/progress.png" width="20%" alt="Progress Interface"/>
+</p>
+
+<p align="center">
+  <img src="Assets/statistic.png" width="60%" alt="Statistic Interface"/>
 </p>
 
 ## ✨ Features
