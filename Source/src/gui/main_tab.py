@@ -15,6 +15,7 @@ class MainTab(ttk.Frame):
         self.setup_ui()
         self.setup_drag_drop()
         self.setup_clipboard()
+        self.setup_delete_binding()
         self.preview_window = None
         
     def setup_ui(self):
@@ -38,7 +39,7 @@ class MainTab(ttk.Frame):
             list_frame,
             width=50,
             height=8,
-            selectmode=tk.MULTIPLE,
+            selectmode=tk.SINGLE,
             font=("Helvetica", 10),
             bg="white"
         )
@@ -341,3 +342,6 @@ class MainTab(ttk.Frame):
         if self.preview_window:
             self.preview_window.destroy()
             self.preview_window = None
+        
+    def setup_delete_binding(self):
+        self.files_listbox.bind('<Delete>', lambda e: self.remove_selected())
