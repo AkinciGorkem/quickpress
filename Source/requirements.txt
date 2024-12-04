@@ -1,6 +1,7 @@
-Pillow==10.2.0
-tkinterdnd2==0.3.0
-matplotlib==3.8.2
-numpy==1.26.3
-pandas==2.1.4
-reportlab==4.0.9
+Pillow>=9.5.0
+tkinterdnd2>=0.3.0
+matplotlib>=3.7.1
+numpy>=1.24.3
+pandas>=2.0.2
+reportlab>=4.0.4
+pyinstaller>=5.13.0
